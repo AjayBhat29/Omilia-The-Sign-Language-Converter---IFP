@@ -8,6 +8,9 @@ A CNN project for recognizing Indian Sign Language gestures
 4. Then used the model which was trained using Keras on a video stream.
 5. As of today, we have stored the 50 gestures for which are 26 alphabets and 24 gestures of Indian Sign Language. And trained the model on these images.
 
+## Gesture Database Files
+https://drive.google.com/drive/folders/1exlxQF5qlGlzPP_5sDfpurmvx3ZOBufz?usp=sharing
+
 ## Requirements
 0. Python 3.x
 1. <a href="https://tensorflow.org">Tensorflow 1.5</a>
