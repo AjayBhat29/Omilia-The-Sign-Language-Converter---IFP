@@ -20,7 +20,6 @@ https://drive.google.com/drive/folders/1exlxQF5qlGlzPP_5sDfpurmvx3ZOBufz?usp=sha
 5. pyttsx3
 6. A good grasp over the above 5 topics along with neural networks. Refer to the internet if you have problems with those. I myself am just a begineer in those.
 7. A good CPU (preferably with a GPU).
-8. Patience.... A lot of it.
 
 ## Installing the requirements
 1. Start your terminal of cmd depending on your os.
