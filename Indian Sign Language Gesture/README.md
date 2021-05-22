@@ -48,13 +48,13 @@ Clearing things before you use this repo. There is no interactive way to learn t
   * In case you are not successful then move your hand a little bit and press 'c' again. Repeat this until you get a good histogram.
   * After you get a good histogram by some standard, press 's' to save the histogram. All the windows close.
   
-  2. We already have added 50 (0-49) gestures. It is on you if you want to add even more gestures or replace my gestures. Hence this step is <b>optional</b>. To create your own gestures or replace my gestures do the following. It is done by the command given below. On starting executing this program, you will have to enter the gesture number and gesture name/text. Then an OpenCV window called "Capturing gestures" which will appear. In the webcam feed, you will see a green window (inside which you will have to do your gesture) and a counter that counts the number of pictures stored.
+  2. We already have added 50 (0-49) gestures. It is on you if you want to add even more gestures or replace my gestures. Hence this step is <b>OPTIONAL</b>. To create your own gestures or replace my gestures do the following. It is done by the command given below. On starting executing this program, you will have to enter the gesture number and gesture name/text. Then an OpenCV window called "Capturing gestures" which will appear. In the webcam feed, you will see a green window (inside which you will have to do your gesture) and a counter that counts the number of pictures stored.
 
     python create_gestures.py   
 
   3. Press 'c' when you are ready with your gesture. Capturing gesture will begin after a few seconds. Move your hand a little bit here and there. You can pause capturing by pressing 'c' and resume it by pressing 'c'. Capturing resumes after a few secondAfter the counter reaches 1200 the window will close automatically.
 
-  After capturing all the gestures you can flip the images using
+  After capturing all the gestures you can flip the images (this is a part of augmentation) using, 
 
     python flip_images.py
 
@@ -68,7 +68,7 @@ Clearing things before you use this repo. There is no interactive way to learn t
     python display_all_gestures.py
 
 ### Training a model
-  1. So training can be done with either Tensorflow or Keras. If you want to train using Tensorflow then run the cnn_tf.py file. If you want to train using Keras then use the cnn_keras.py file.
+  1. So training can be done with either Tensorflow or Keras. If you want to train using Tensorflow, then run the cnn_tf.py file. If you want to train using Keras, then use the cnn_keras.py file.
   
     python cnn_tf.py
     python cnn_keras.py
