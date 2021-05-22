@@ -32,10 +32,10 @@ https://drive.google.com/drive/folders/1exlxQF5qlGlzPP_5sDfpurmvx3ZOBufz?usp=sha
     pip install -r requirements_cpu.txt
 
 ## How to use this repo
-Before using this repo, let me warn about something. You will have no interactive interface that will tell you what to do. So you will have to figure out most of the stuff by yourself and also make some changes to the scripts if the needs arise. But here is a basic gist.
+Clearing things before you use this repo. There is no interactive way to learn the flow or how it works. Just experiment and learn a lot as you go if you wish to use this repo. 
 
 ### Creating a gesture 
-  1. First set your hand histogram. You do not need to do it again if you have already done it. But you do need to do it if the lighting conditions change. To do so type the command given below and follow the instructions below.
+  1. First set your hand histogram. You do not need to do it again if it has already been done before by you. However, you need to do it again if the lighting conditions change. To do so type the command given below and follow the instructions below.
     
     python set_hand_hist.py
 
@@ -46,9 +46,9 @@ Before using this repo, let me warn about something. You will have no interactiv
   * On pressing 'c' only white patches corresponding to the parts of the image which has your skin color should appear on the "Thresh" window. 
   * Make sure all the squares are covered by your hand.
   * In case you are not successful then move your hand a little bit and press 'c' again. Repeat this until you get a good histogram.
-  * After you get a good histogram press 's' to save the histogram. All the windows close.
+  * After you get a good histogram by some standard, press 's' to save the histogram. All the windows close.
   
-  2. We already have added 50 (0-49) gestures. It is on you if you want to add even more gestures or replace my gestures. Hence this step is <b>OPTIONAL</b>. To create your own gestures or replace my gestures do the following. It is done by the command given below. On starting executing this program, you will have to enter the gesture number and gesture name/text. Then an OpenCV window called "Capturing gestures" which will appear. In the webcam feed you will see a green window (inside which you will have to do your gesture) and a counter that counts the number of pictures stored.
+  2. We already have added 50 (0-49) gestures. It is on you if you want to add even more gestures or replace my gestures. Hence this step is <b>optional</b>. To create your own gestures or replace my gestures do the following. It is done by the command given below. On starting executing this program, you will have to enter the gesture number and gesture name/text. Then an OpenCV window called "Capturing gestures" which will appear. In the webcam feed, you will see a green window (inside which you will have to do your gesture) and a counter that counts the number of pictures stored.
 
     python create_gestures.py   
 
